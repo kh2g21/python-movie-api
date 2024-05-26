@@ -97,7 +97,9 @@ def main():
         # Store movie data
         store_movie_data(data)
     else:
-        print("Failed to retrieve data")
+        print("Failed to retrieve data. Movie doesn't exist in API. Please try again.")
+
+
 
 # Run main function
 if __name__ == "__main__":
